@@ -1,0 +1,136 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.title{
+    color:var(--vermelho);
+    font-family: 'Arial Black','Times New Roman', Times, serif;
+    font-size: 30px;
+    margin:20px;
+    cursor:pointer;
+}
+/*Elementos base*/
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    margin-right: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    transition: 0.5s;
+    color: #aaa;;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.container{
+    margin-left: 20px;
+}
+.banner .container{
+    width: 70%;
+}
+/*Serie principal*/
+
+.banner{
+    font-size: 17px;
+    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,.5)100%),url('../img/giphy.gif');
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-banner{
+    font-size: 45px;
+    margin-top: 15%;
+}
+
+.banner .sinopse{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.botao1{
+    background-color: rgb(255,255,255);
+    border:none;
+    color:rgb(0, 0, 0);
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:15px 30px;
+    cursor:pointer;
+    border-radius: 3%;
+    margin-right: 7px;
+
+}
+.botao2{
+    background-color: rgba(255,255,255,.3);
+    border:none;
+    color:white;
+    font-size:17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:15px 30px;
+    cursor:pointer;
+    border-radius: 3%;
+}
+
+.botao1:hover{
+    background-color: rgba(179, 177, 177,0.85);
+    transition: 0.4s;
+}
+
+.botao2:hover{
+    background-color: rgba(255,255,255,.2);
+    transition: 0.4s;
+}
+
+.botao1 i,.botao2 i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+/*Filmes do catalogo*/
+
+.box-filme{
+    display: block;
+    cursor:pointer;
+    border-radius: 3%;
+}
+.box-filme:hover{
+    transition: 1s;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+h4{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
