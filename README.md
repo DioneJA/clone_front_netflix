@@ -1,3 +1,3 @@
 # Clone netflix
 
-Link(dioneJA.github.io)
+Link: https://dioneja.github.io/clone_front_netflix/
